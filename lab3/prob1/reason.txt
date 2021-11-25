@@ -1,0 +1,1 @@
+Person is not instance of PersonWithJob, so equals method in PersonWithJob class is giving false
