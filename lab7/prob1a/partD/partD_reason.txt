@@ -1,0 +1,3 @@
+Problem: field "visited" in Employee class is checked in equals and hashcode method. It is variable and can be changed.
+so, if you want to check equals, contains or containsKey, you should make key immutable.
+Solution: Remove setter method for "visited" field and initialize it from constructor

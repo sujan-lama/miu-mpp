@@ -1,0 +1,5 @@
+Problem: Equals method is not override in Employee object.
+List.contains checks the equals method of the object. So we need to override equals method and check necessary condition.
+Before, equals method was not override, rather than checking its attributes, it was checking object. So, it was giving false.
+
+Solution: Overriding equals method, and checking name and salary of object to determine if object is same or not.

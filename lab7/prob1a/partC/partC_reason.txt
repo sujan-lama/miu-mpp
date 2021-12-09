@@ -1,0 +1,6 @@
+Problem: hashcode is not override in Employee class.
+Hashmap.containsKey checks the both equals and hashCode of the object. So we need to override equals and hashcode both.
+Hashcode helps in identification of an object by keeping object in index, so, before it was not override,
+ thus hashmap couldn't determine the object is equal or not.
+
+Solution: Override hashcode in Employee class and add necessary code.
