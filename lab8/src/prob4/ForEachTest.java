@@ -14,7 +14,7 @@ public class ForEachTest {
 
 
         //foreach using method reference
-        System.out.println("\nMethod Reference for each");
+        System.out.println("\n Method Reference for each");
         fruits.forEach(System.out::println);
 
 
